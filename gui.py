@@ -14,7 +14,7 @@ class QuickFitGUI:
         tk.Label(
             root,
             text="Quick Fit Memory Management",
-            font=("Oswald", 35, "bold"),
+            font=("Oswald", 37, "bold"),
             
             fg="#000000",
             justify="center"
@@ -117,7 +117,7 @@ class QuickFitGUI:
 
         button_frame = tk.Frame(right_frame, pady=5, padx=5, bg="#e8f8f5")
         button_frame.pack(fill=tk.BOTH, expand=True, pady=5)
-        tk.Button(button_frame, text="Refresh Memory Status", command=self.display_memory, bg="#46b0ee", fg="#000000", font=("Arial", 11, "bold")).pack(anchor="center", pady=5)
+        tk.Button(button_frame, text="Refresh Memory Status", command=self.display_memory, bg="#8c71f8", fg="#000000", font=("Arial", 11, "bold")).pack(anchor="center", pady=5)
         tk.Button(button_frame, text="Defragment Memory", command=self.defragment_memory, bg="#0ddad3", fg="#000000", font=("Arial", 11, "bold")).pack(anchor="center", pady=5)
 
     def add_block(self):
