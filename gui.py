@@ -47,7 +47,7 @@ class QuickFitGUI:
         self.add_id = tk.Entry(add_block_frame, width=10, justify="center")
         self.add_id.pack(pady=5)
 
-        tk.Button(add_block_frame, text="Add Block", command=self.add_block, bg="#e6c888", fg="#000000", font=("Arial", 11, "bold")).pack(pady=5)
+        tk.Button(add_block_frame, text="Add Block", command=self.add_block, bg="#f2ca73", fg="#000000", font=("Arial", 11, "bold")).pack(pady=5)
 
         # Allocate Memory Section
         allocate_frame = tk.Frame(left_frame, pady=5, padx=5, bg="#e6ffe6")
